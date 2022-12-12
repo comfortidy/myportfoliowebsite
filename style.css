@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav{
+    position: fixed;
+    background-image: url(gradient.jpg);
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+.nav-link{
+    color: white !important;
+}
+p{
+    color: rgb(49, 47, 47);
+}
+.paragraph{
+    font-size: large;
+    color: aqua;
+}
+.btn-secondary {
+    background-color: rgb(48, 64, 118) !important;
+}
+.intro{
+    background-image: url(white.jpg);
+    background-size: cover;
+    padding: 20px 15px;
+}
+label{
+    color: rgb(108, 92, 92);
+    font-size: xx-large;
+}
+.about{
+    background-color: bisque;
+    padding: auto;
+}
+.lead{
+    font-family: 'Baloo 2', cursive;
+    font-weight: 500 !important;
+    font-size: 2rem !important;
+    
+}
+.justify-content-center{
+    margin: 0 auto;
+}
+#para{
+    font-size: xx-large;
+    color : rgb(203, 194, 194);
+}
+#con{
+    color: rgb(75, 93, 93);
+    font-size: larger;
+}
+img{
+    object-fit: cover;
+}
+#copy{
+    color: rgb(75, 93, 93);
+}
+.btn-primary {
+    color: #fff;
+    background-color: #1dbbbb !important;
+    border-color: aqua !important;
+    padding: 9px 55px !important;
+    margin-top: 4px !important;
+}
+.text-center{
+    color: #fff;
+    font-size: 900;
+}
+#form{
+    max-width: 70%;
+    height: 50%;
+}
+#projects{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control {
+    border: none !important;
+    background: #333;
+    color: #fff;}
+    .social{
+        background: black;
+    position: relative;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0 10px
+    }
